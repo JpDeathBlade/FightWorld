@@ -1,10 +1,5 @@
 # FightWorld
-An RPG modification for the [AP Java GridWorld Case Study](https://apcentral.collegeboard.org/courses/ap-computer-science-a/classroom-resources/gridworld-case-study?course=ap-computer-science-a).
-
-Each ladybug was given HP, Stats, Weapons, Armor, Spells and a Level syste, and allowed to fight each other to see what bug would come out on top. Responsibilities included:
- - Initial idea and game concepts.
- - Art for each classes armor and weapons as well as skills and special bugs.
- - Balancing of bug stats as well as Class Hierarchy.
+An RPG modification for the [AP Java GridWorld Case Study](https://apcentral.collegeboard.org/courses/ap-computer-science-a/classroom-resources/gridworld-case-study?course=ap-computer-science-a). Each ladybug was given HP, Stats, Weapons, Armor, Spells and a Level system, and allowed to fight each other to see what bug would come out on top.
 
 ![Title Menu](Screenshots/0_MainMenu.png?raw=true "Title Menu")
 ![Quickplay](Screenshots/1_Quickplay.png?raw=true "Quickplay")
