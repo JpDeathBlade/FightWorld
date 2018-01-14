@@ -1,0 +1,75 @@
+- Am I Alive?
+  - yes
+    - PreAction Status (ie Poison, Burn, Frozen, etc)
+
+    - Am I under control? (Beserk, Fear, Frozen, etc)
+      - yes
+        - Under Control
+      - no
+	    - Can I attack? (My Level >= E Level)
+	      - yes
+	        - Is my health ok?
+	          - yes
+	            - Can I remove a Debuff?
+	              - yes
+	                - Remove debuff
+	              - no
+	                - Can I give myself a Buff?
+	                  - yes
+	                    - Cast buff
+	                  - no
+	                    - Attack
+	          - no
+	            - Can I heal myself?
+	              - yes
+	                - Cast healing spell
+	              - no
+	                - Can I give myself a healing Buff?
+	                  - yes
+	                    - Cast healing Buff
+	                  - no
+	                    - Can I escape?
+	                      - yes
+	                        - Attack or Run Away
+	                      - no
+	                        - Attack or Defend
+	      - no
+	        - Is my health ok?
+	          - yes
+	            - Can I remove a Debuff?
+	              - yes
+	                - Remove debuff
+	              - no
+	                - Can I give myself a Buff?
+	                  - yes
+	                    - Cast buff
+	                  - no
+	                    - Can I move?
+	                      - yes
+	                        - Move
+	                      - no
+	                        - Turn
+	          - no
+	            - Can I heal?
+	              - yes
+	                - Cast healing spell
+	              - no
+	                - Can I give myself a healing Buff?
+	                  - yes
+	                    - Cast healing buff
+	                  - no
+	                    - Can I move?
+	                      - yes
+	                        - Move
+	                      - no
+	                        - Turn
+	
+	    - PostAction Status
+	    - Turn Passed
+  - no
+    - decay
+      - Can I turn into a zombie?
+        - yes
+          - Turn into an Undead Bug
+        - no
+          - Remove from grid

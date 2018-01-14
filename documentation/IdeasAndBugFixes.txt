@@ -1,0 +1,48 @@
+Fightworld Ideas/BugFixes
+
+- Grunt
+  * Better AI (smarter)
+  + Undead method (to control turning, override for mage)
+
+- Warrior
+
+- Tank
+
+- Mage
+
+- Undead
+  + Undead mage (can cast spells, override undead method)
+
+- Spells
+  + Fear (bugs run away for 3-5 steps)
+
+- Status
+  * Poison doesnt override Deadly Poison
+
+  BUFFS
+  + Rise - revives bug if killed (last 5 steps), rand(1,maxHp/2)
+  + Protection - Reduces attack/spell damage by 10-50%
+  + Regain - Hp rises gradually (1-5 HPS (health per step), lasts 7s)
+  + Rest - Hp rises gradually (5-12 HPS (health per step), lasts 5s)
+    - resting bugs cant move, attack breaks rest.
+  + Immune - Immune to debufs for 3 steps
+
+  DEBUFFS
+  + Frozen - bug cannot move for (3,7) steps (tint bug CYAN).
+
+  Special Moves
+  + Grunt - Aprentice: Can become any bug (if a grunt its lvl 4 it gets the begining armor and weapons of another bug).
+  + Warrior - War Stomp: hits up to 9 surrounding enemies
+  + Tank - Sheild: Sheilds self for 2 tunrs (Draw bubble over tank)
+  + Mage - Casts spells on self
+  + Paladin - Devotion Aura - gives up to 9 surrounding allies extra
+              - defence
+  + Undead - Rot: Bugs are more likely to flee
+  + Shaman - Lays totems
+  + Rouge - Stealth: goes transparent, less likely to be attacked
+            - attack breaks it.
+  + Baby - 180: can do a complete 180 to flee
+
+- Armor
+
+- Weapons
